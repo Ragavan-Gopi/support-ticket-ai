@@ -1,0 +1,7 @@
+# Docker is intentionally NOT used for this project at this stage.
+# Since the application is designed to interface natively with Ollama on the host 
+# machine (optionally using local hardware acceleration), the project is designed 
+# to run directly via Python virtual environments (see README.md for instructions).
+# 
+# Adding a Dockerfile without proper configuration for passthrough across platforms 
+# would create unnecessary complexity for an AI engineering assessment.
